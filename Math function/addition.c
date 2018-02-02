@@ -1,18 +1,24 @@
-int main() {
-   int num1, num2, res;
- 
-   printf("\nEnter the two numbers : ");
-   scanf("%d %d", &num1, &num2);
- 
-   //Call Function Sum With Two Parameters
-   res = sum(num1, num2);
- 
-   printf("nAddition of two number is : ");
-   return (0);
+#include <stdio.h>
+
+int addNumbers(int a, int b);         // function prototype
+
+int main()
+{
+    int n1,n2,sum;
+
+    printf("Enters two numbers: ");
+    scanf("%d %d",&n1,&n2);
+
+    sum = addNumbers(n1, n2);        // function call
+
+    printf("sum = %d",sum);
+
+    return 0;
 }
- 
-int sum(int num1, int num2) {
-   int num3;
-   num3 = num1 + num2;
-   return (num3);
+
+int addNumbers(int a,int b)         // function definition   
+{
+    int result;
+    result = a+b;
+    return result;                  // return statement
 }

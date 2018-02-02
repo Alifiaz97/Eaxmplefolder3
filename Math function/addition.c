@@ -22,3 +22,9 @@ int addNumbers(int a,int b)         // function definition
     result = a+b;
     return result;                  // return statement
 }
+
+
+// the program above implements the addition method in order to calculate the result of two numbers. 
+
+
+

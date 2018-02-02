@@ -27,4 +27,6 @@ int addNumbers(int a,int b)         // function definition
 // the program above implements the addition method in order to calculate the result of two numbers. 
 
 
-// the comments helps another person to understand what is happening in the code 
+
+
+// >>>>>>> testing

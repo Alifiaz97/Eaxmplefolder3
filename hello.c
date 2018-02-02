@@ -2,5 +2,10 @@
 main() 
 {     
    printf("Hello World\n");
-  // printf("�Hello You!\n�");
+   printf("Hello World\n");
+   printf("Fare thee well");
+
+
+
+      printf("Quicker Version!\n");
 }
